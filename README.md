@@ -1,10 +1,8 @@
 
 # India RISC-V Chip Tapeout Program
 
-Tasklist
+##Tasklist
 
-## 🔽 Links to Detailed Logs
-
-| Day  | Topics Covered | Status |
-|---|---|---|
+| Day  | Topics Covered |
+|---|---|
 | **Task1** | [**Tools Installation**](Day0/README.md) 
