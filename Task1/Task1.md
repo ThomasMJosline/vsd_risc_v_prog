@@ -1,20 +1,21 @@
 
 
-# VSD Hardware Design Program
+# Tool Installation
 
-## Tools Installation
+### Virtual Machine
 
-#### <ins>All the instructions for installation of required tools can be found here:</ins>
+As I am using a system with Windows OS, a virtual machine is with Ubuntu OS is made using Oracle VirtualBox.
 
-### **System Requirements**
+### **Virtual Machine Configuration**
 - 6 GB RAM
 - 50 GB HDD
-- Ubuntu 20.04 or higher
+- Ubuntu 22.04.5
 - 4 vCPU
 
-### **TOOLS:**
+## **TOOLS:**
 
-#### <ins>**Yosys**</ins>
+### **1. Yosys**
+Yosys is an open-source framework used to synthesis verilog codes of the designed modules into a netlist.
 ```bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -30,19 +31,41 @@ $ git submodule update --init
 $ make 
 $ sudo make install
 ```
+To start working with Yosys, run:
+```
+$ yosys
+```
+The command line interface of Yosys:
+
 ![Alt Text](images/yosys.png)
 
-#### <ins>**Iverilog**</ins>
+### **2. Iverilog**
+
+Iverilog or Icarus verilog is an open-source verilog compiler, which is used during simulation of RTL design made in verilog.
+
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+Version of iverilog installed:
+
 ![Alt Text](images/iverilog.png)
 
-#### <ins>**gtkwave**</ins>
+### **3. Gtkwave**
+Gtkwave is an open-souce tool used to observe the waveforms generated during simulation of RTL modules. This is useful for checking the functionality and debugging of the designs
+
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
-![Alt Text](images/gtkwave.png)
 
+Version of Gtkwave installed:
+
+![Alt Text](images/gtkwave_ver.png)
+
+To access GUI of Gtkwave:
+```
+$ gtkwave
+```
+
+![Alt Text](images/gtkwave_gui.png)
