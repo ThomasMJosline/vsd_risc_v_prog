@@ -3,6 +3,6 @@
 
 ## Tasklist
 
-| Day  | Topics Covered |
+| Task | Topics Covered |
 |---|---|
-| **Task1** | [**Tools Installation**](Day0/README.md) 
+| **Task1** | [**Tools Installation**](Task1/README.md) 
