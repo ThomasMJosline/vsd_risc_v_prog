@@ -37,7 +37,7 @@ $ sudo make install
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-![Alt Text](Images/Iverilog_installation_done.jpeg)
+![Alt Text](images/iverilog.jpeg)
 
 #### <ins>**gtkwave**</ins>
 ```bash
