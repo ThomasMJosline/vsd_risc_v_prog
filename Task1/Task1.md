@@ -37,57 +37,12 @@ $ sudo make install
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-![Alt Text](images/iverilog.jpeg)
+![Alt Text](images/iverilog.png)
 
 #### <ins>**gtkwave**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
-![Alt Text](Images/gtkwave_installation_done.jpeg)
-
-#### <ins>**ngspice**</ins>
-After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
-```bash
-$ tar -zxvf ngspice-37.tar.gz
-$ cd ngspice-37
-$ mkdir release
-$ cd release
-$ ../configure  --with-x --with-readline=yes --disable-debug
-$ make
-$ sudo make install
-```
-![Alt Text](Images/ngspice_installation_done.jpeg)
-
-#### <ins>**magic**</ins>
-Install the required dependencies:
-```bash
-$ sudo apt-get install m4
-$ sudo apt-get install tcsh
-$ sudo apt-get install csh
-$ sudo apt-get install libx11-dev
-$ sudo apt-get install tcl-dev tk-dev
-$ sudo apt-get install libcairo2-dev
-$ sudo apt-get install mesa-common-dev libglu1-mesa-dev
-$ sudo apt-get install libncurses-dev
-```
-Clone and build Magic:
-```bash
-$ git clone https://github.com/RTimothyEdwards/magic
-$ cd magic
-$ ./configure
-$ make
-$ sudo make install
-```
-![Alt Text](Images/magic_installation_done.jpeg)
-
-### <ins>**Tool Versions**</ins>
-```bash
-$ git --version
-$ docker --version
-$ python3 --version
-$ python3 -m pip --version
-$ make --version
-```
-![Alt Text](Images/Tool_versions.jpeg)
+![Alt Text](images/gtkwave.png)
 
