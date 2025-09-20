@@ -1,5 +1,5 @@
 
-# VSD Hardware Design Program
+# India RISC-V Chip Tapeout Program
 
 Tasklist
 
