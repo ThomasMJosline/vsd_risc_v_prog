@@ -4,7 +4,7 @@
 
 ### Virtual Machine
 
-As I am using a system with Windows OS, a virtual machine is with Ubuntu OS is made using Oracle VirtualBox.
+As I am using a system with Windows OS, a virtual machine which have Ubuntu OS is made using Oracle VirtualBox.
 
 ### **Virtual Machine Configuration**
 - 6 GB RAM
